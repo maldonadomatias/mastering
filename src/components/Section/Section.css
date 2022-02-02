@@ -1,0 +1,57 @@
+.divLayout{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+.divLayout2{
+    display: flex;
+    text-align: initial;
+    padding: 0 1rem;
+    flex-direction: column;
+}
+
+.divLayout h2{
+   text-align: left;
+}
+
+.textParagraph{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1rem;
+    border: none;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+.textTitle{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #222;
+}
+
+@media screen and (min-width: 900px) {
+    .divLayout2{
+        flex-direction: row;
+    }
+
+    .textParagraph{
+        margin: 0.5rem;
+    }
+ }

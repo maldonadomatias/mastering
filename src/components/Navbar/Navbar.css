@@ -1,0 +1,74 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar{
+    padding: 10px;
+    transition: top 0.6s; /* Transition effect when sliding down (and up) */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+}
+
+.navbar--hidden {
+    top: -55px;
+  }
+
+#logo{
+    font-weight: 800;
+}
+
+.navListButtons{
+    display: flex;
+}
+
+.navListButtons li{
+    margin: 0px 10px;
+}
+
+.navListButtons li button{
+    border: none;
+    background-color: #fff;
+}
+
+#prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.growButton{
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.growButton:hover{
+    transform: scale(1.05);
+}
+
