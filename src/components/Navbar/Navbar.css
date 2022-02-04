@@ -39,7 +39,7 @@ a{
 }
 
 .navListButtons{
-    display: flex;
+    display: none;
 }
 
 .navListButtons li{
@@ -72,3 +72,19 @@ a{
     transform: scale(1.05);
 }
 
+.menuBtn{
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 500px) { 
+    .menuBtn{
+        display: none;
+    }
+
+    .navListButtons{
+        display: flex;
+    }
+}
+/* Modal */

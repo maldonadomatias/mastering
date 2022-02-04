@@ -1,0 +1,30 @@
+.fourTextInfo{
+    margin: 1rem 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.fourTextInfo div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: start;
+    border-left: 2px dashed rgba(34,34,34,0.4);
+    padding: 0 0 0 10px;
+}
+
+.textInfoIcon{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    .fourTextInfo{
+        flex-wrap: nowrap;
+    }
+}

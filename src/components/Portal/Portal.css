@@ -1,0 +1,46 @@
+.modalContainer {
+    width: 200px;
+    /* height: 100%; */
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: absolute;
+    transition: ease-in-out 0.3s;
+  }
+
+  .modalBackground {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(200, 200, 200); */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -5%;
+    top: -27%;
+    transition: ease-in-out 0.3s;
+  }
+
+  .modalTextDiv{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .modalText{
+      color: #222 !important;
+      cursor: pointer;
+      transition: ease-in-out 0.3s;
+  }
+
+  .modalText:hover{
+      color: rgb(255, 139, 139) !important;
+  }
+
+  #closeBtn{
+      position: relative;
+      left: 40%;
+      font-size: 1.5rem;
+  }

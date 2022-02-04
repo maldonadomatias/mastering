@@ -1,0 +1,68 @@
+.fourTextFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #222;
+    padding: 2rem 0;
+}
+
+.fourTextFooter div p{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.textTitleFooter{
+    font-size: 1rem;
+    font-weight: 600 !important;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+li{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 200;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgb(167, 167, 167);
+}
+
+#logoNegative{
+    font-weight: 800;
+    color: #fff;
+}
+
+.copyright{
+    margin-top: 5px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .fourTextFooter{
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .fourTextFooter div{
+        text-align: start;
+    }
+    .fourTextFooter div p{
+        font-size: 1rem;
+    }
+
+    .copyright{
+        font-size: 0.7rem !important;
+        margin-top: 15rem;
+        width: 200px;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+}
